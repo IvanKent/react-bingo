@@ -1,0 +1,13 @@
+.box{
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    border: 1px solid black;
+}
+.boxRowContainer{
+    display: flex;
+}
+.boxContainer{
+    display: flex;
+    flex-direction: column;
+}

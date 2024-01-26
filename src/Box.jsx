@@ -1,7 +1,8 @@
+import './bingo.css'
 export default function Box() {
     return (
-        <div>
-            
-        </div>
+        <button className='box'>
+            1
+        </button>
     )
 }

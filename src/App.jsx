@@ -1,9 +1,9 @@
 import './App.css'
-
+import BoxContainer from './BoxContainer'
 function App() {
   return (
     <div>
-      dfsfd
+      <BoxContainer/>
     </div>
   )
 }
