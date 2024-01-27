@@ -1,8 +1,12 @@
 import './bingo.css'
-export default function Box() {
+import { useState } from 'react'
+
+import InputText from './InputText'
+export default function Box({value}) {
+
     return (
-        <button className='box'>
-            1
-        </button>
+        <div>
+            <button className='box'>{value}</button>
+        </div>
     )
 }
